@@ -3,5 +3,17 @@
         "Backaverage",
         "linspace",
         "savefig"
+    ],
+    "python.testing.pytestArgs": [
+        "V6"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./V4",
+        "-p",
+        "test*.py"
     ]
 }
